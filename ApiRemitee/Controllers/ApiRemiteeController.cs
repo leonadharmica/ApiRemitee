@@ -26,8 +26,10 @@ namespace ApiRemitee.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetCambioDolarPeso()
+        public MonedaDeCambio GetMontoResultante(MonedaDeCambio monto, Fee fee, MonedaDeCambio montoResultante)
         {
+            montoResultante.MontoResultante = monto.Monto * fee._Fee;
+            return montoResultante;
         }
     }
 }
