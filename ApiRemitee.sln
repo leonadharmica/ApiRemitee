@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRemitee", "ApiRemitee\ApiRemitee.csproj", "{AFE51E5F-D627-4E6C-A895-5DF92A6FB5FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiRemitee", "ApiRemitee\ApiRemitee.csproj", "{AFE51E5F-D627-4E6C-A895-5DF92A6FB5FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46F544A1-375B-4B67-8391-3E0B1E045591}"
+	ProjectSection(SolutionItems) = preProject
+		MonedaDeCambioDbContext.cs = MonedaDeCambioDbContext.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
